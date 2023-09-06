@@ -8,7 +8,7 @@ object Databaseconnection {
         url = "jdbc:mysql://localhost:5555/yournursery",
         driver = "com.mysql.cj.jdbc.Driver",
         user = "root",
-        password = "root5555port"
+        password = ""
     )
     val Database.productss get() = this.sequenceOf(productentity)
     val Database.aboutt get() = this.sequenceOf(aboutentity)
